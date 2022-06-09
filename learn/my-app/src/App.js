@@ -1,8 +1,10 @@
 
 import './App.css';
-import Counter from './components/Counter';
-import ClickCounterTwo from './components/ClickCounterTwo';
-import HoverCounterTwo from './components/HoverCounterTwo';
+import PostForm from './components/PostForm';
+// import Counter from './components/Counter';
+// import ClickCounterTwo from './components/ClickCounterTwo';
+// import HoverCounterTwo from './components/HoverCounterTwo';
+// import PostList from './components/PostList';
 // import User from './components/User';
 // import HoverCounter from './components/HoverCounter';
 // import ClickCounter from './components/ClickCounter';
@@ -22,7 +24,9 @@ import HoverCounterTwo from './components/HoverCounterTwo';
 function App() {
   return (
     <div className="App">
-      <Counter 
+      <PostForm />
+      {/* <PostList /> */}
+      {/* <Counter 
         render= {(count, incrementCount) => (
           <ClickCounterTwo count={count} increment={incrementCount}/> 
           )} 
@@ -31,7 +35,7 @@ function App() {
         render= {(count, incrementCount) => (
           <HoverCounterTwo count={count} increment={incrementCount}/> 
           )} 
-        /> 
+        />  */}
       // {/* <ClickCounterTwo />
       // <HoverCounterTwo /> */}
       // {/* <User render = {(isLoggedIn) => isLoggedIn ? 'Aniket' : 'Batman'} /> */}
